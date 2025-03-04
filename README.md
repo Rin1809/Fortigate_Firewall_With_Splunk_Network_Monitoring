@@ -11,7 +11,8 @@ As a student learning about cyber security, i just want to show what i did and h
 
 **1. Preparation**
 
-![image](https://github.com/user-attachments/assets/2db41843-e134-42ba-8ab2-50a2f3690680)
+![image](https://github.com/user-attachments/assets/92f747da-345a-492a-ada0-9e0729d31700)
+
 (Foritgate Firewall Dashboard)
 
 **2. Design and Implement a Computer Network for a Small Business.** This network needs to meet the following requirements:
