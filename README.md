@@ -1,22 +1,14 @@
-# Fortigate_Firewall_With_Splunk_Network_Monitoring
+# Design And Deployment Business Nework Support By Fortigate Firewall And Splunk Network Monitoring  
 
 **Lab Report: Network Design and Implementation for a Small Business**
 
-**I. Analysis**
-
-*(This section likely outlines the initial requirements and considerations for designing the network, setting the stage for the implementation)*
-
-**II. Implementation**
-
-This section details the practical steps taken to build and configure the small business network according to the analysis and requirements outlined in Part I.
 
 **1. Preparation**
 
-*(This section likely covers the initial setup of the lab environment, including virtual machines, software installation, and basic network setup before configuring the FortiGate firewall and other services)*
+![image](https://github.com/user-attachments/assets/2db41843-e134-42ba-8ab2-50a2f3690680)
+(Foritgate Firewall Dashboard)
 
 **2. Design and Implement a Computer Network for a Small Business.** This network needs to meet the following requirements:
-
-*(This section restates the core requirements for the network, providing context for the following implementation steps)*
 
 *   **Internet Connection:** The network must be connected to the Internet through a firewall. The public IP address of the firewall is 192.168.19.x.
 *   **DMZ:** A DMZ is required to host a public web server. This web server will have the IP address 192.168.40.254/24.
