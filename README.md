@@ -238,15 +238,19 @@ The IPsec VPN is configured to allow remote administrators (members of the "ado-
 This section describes the configuration of Intrusion Prevention System (IPS) and Intrusion Detection System (IDS) features on the FortiGate firewall to enhance network security by monitoring and preventing malicious traffic.
 
 Video 1:
+
 https://github.com/user-attachments/assets/2cd79535-d518-457f-a3c1-089f0c92359e
 
 Video 2:
+
 https://github.com/user-attachments/assets/0584c5bf-fb2b-490b-8c10-0f339aa6d36c
 
 Video 3:
+
 https://github.com/user-attachments/assets/1d5ac8d7-5b22-4b1d-b342-4e90ec5164ed
 
 Video 4:
+
 https://github.com/user-attachments/assets/a6f7acbb-2282-4ad6-a9a3-6d931c342088
 
 Monitor and prevent attacks with IPS and IDS from external networks (WAN) and internal networks (LAN) to the Server (DMZ).
