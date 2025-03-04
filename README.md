@@ -100,6 +100,15 @@
 
 **3. VPN Tunnel**
 
+Video :
+
+
+https://github.com/user-attachments/assets/2deea068-4efb-4cbf-a606-4337e739b100
+
+
+
+
+
 Configure VPN for administrator remote access to the LAN network.
 
 *   **VPN Group:** named "ado-group" containing VPN members (ado).
@@ -419,23 +428,64 @@ Configure DNS Manager to resolve domain names for the LAN network to the Web Ser
 
 
 *   Splunk recorded the logs and notified about the XSS attack as per the created Alert.
-*   
+*   ![image](https://github.com/user-attachments/assets/928c4e3e-7fa6-4c8c-8175-69b28cac586b)
+
+
 
 **3.4. SQL Injection**
 
 *   Query to create an Alert for the issue of SQL Injection attacks on the Web Server (DMZ).
+*   ![image](https://github.com/user-attachments/assets/e22d2c2e-2880-427d-9d4f-ecd7f78f27b8)
+
+
+
 *   Create an Alert for queries related to SQL Injection.
+*   ![image](https://github.com/user-attachments/assets/d0a82372-22fe-47f8-bd33-345dce5e1bf4)
+
+
+
 *   From the Kali Linux machine, use sqlmap to perform SQL Injection attacks on the DMZ for testing.
+*   ![image](https://github.com/user-attachments/assets/d14c137f-0d22-451e-8e2d-c375685bb448)
+
+
+
 *   sqlmap will perform SQL Injection queries on the Web server www.moviescope.com in the DMZ, which will send logs to Splunk. If configured correctly, Splunk will send an Alert.
+*   ![image](https://github.com/user-attachments/assets/53f7ad57-1e0d-433e-8065-428ba16a2d54)
+
+
+
 *   Splunk recorded the logs and notified about the SQL Injection attack as per the created Alert.
+*   ![image](https://github.com/user-attachments/assets/f28142f7-4e9c-4795-85ff-7e826aadef32)
+
+
+
 
 **3.4. DoS Attack**
 
 *   Query to create an Alert for the issue of DoS attacks on the Web Server (DMZ).
+*   ![image](https://github.com/user-attachments/assets/eaa2f8f4-4cba-44b5-9b5d-fd8da0d2c6c4)
+
+
+
+
 *   Create an Alert for queries related to DoS attacks.
+*   ![image](https://github.com/user-attachments/assets/b61dd41d-1fd5-4c43-b1d5-2bfda08cc365)
+
+
+
 *   From the Kali Linux machine, perform a DoS attack on the DMZ web server (www.moviescope.com) to test the Alert function of Splunk.
+*   ![image](https://github.com/user-attachments/assets/bee71453-2ec1-478d-8609-e7b0300c4ed1)
+
+
 *   Using Overload will create a DoS attack on the DMZ Web server, which will generate a large number of requests, causing Splunk to send an Alert.
+*   ![image](https://github.com/user-attachments/assets/eb427f2c-d5e0-48da-909c-0951cebeea50)
+
+
+
 *   Splunk recorded the logs and notified about the DoS attack as per the created Alert.
+*   ![image](https://github.com/user-attachments/assets/1fcb16d2-2141-46b5-b4a8-cba9e071f2c5)
+
+
 
 **IV. Video Demonstrations**
 
