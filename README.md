@@ -276,9 +276,11 @@ Monitor and prevent attacks with IPS and IDS from external networks (WAN) and in
 This section describes how to create a backup of the FortiGate firewall configuration for redundancy and disaster recovery purposes.
 
 Video 1:
+
 https://github.com/user-attachments/assets/2c34a9c1-0a8c-40b7-bfa0-322debfa11d2
 
 Video 2:
+
 https://github.com/user-attachments/assets/f66755f8-bcff-41aa-9163-9e1ba3af5e7f
 
 *   Download the backup file after completing firewall setup for redundancy during Restore.
@@ -318,6 +320,7 @@ This section describes the configuration of the Active Directory server to provi
 **1.1. DHCP Server**
 
 Video :
+
 https://github.com/user-attachments/assets/5a310915-b56c-4413-aeb1-69749382d07b
 
 *   Create a DHCP Scope for the LAN network named "LAN".
@@ -364,6 +367,7 @@ The DHCP server on the AD server is configured to dynamically assign IP addresse
 This section describes the creation of user accounts and groups in Active Directory for user authentication and access control on the LAN network.
 
 Video :
+
 https://github.com/user-attachments/assets/b8cc4a4c-2a57-4fb7-bfb5-1521e0bb9823
 
 *   **User and Group List:**
@@ -412,12 +416,15 @@ The report indicates that domain logins with the created users are successful.  
 This section details the configuration of file share permissions on the Active Directory server to control user access to shared folders and files based on their group membership and individual user accounts.
 
 Video 1:
+
 https://github.com/user-attachments/assets/fd0eb1cb-b53f-4864-a353-707ac5785570
 
 Video 2:
+
 https://github.com/user-attachments/assets/1e6a02a8-1a86-4de5-bd07-a14243876dfe
 
 Video 3:
+
 https://github.com/user-attachments/assets/661dd3f4-f38b-4c64-a6e1-bf37fc1b3178
 
 *   **Data:** "Ado-Congviec" (Ado-Work) shared folder.
@@ -514,9 +521,11 @@ This detailed file share permission configuration implements a Role-Based Access
 This section describes the configuration of the DNS server integrated with Active Directory to provide name resolution for internal and external resources, including resolving domain names for the DMZ web server within the LAN network.
 
 Video 1:
+
 https://github.com/user-attachments/assets/53c06928-1cb5-4105-a6ad-e95317550811
 
 Video 2:
+
 https://github.com/user-attachments/assets/f0956456-a838-42a1-80ea-a51beb9d0f6a
 
 Configure DNS Manager to resolve domain names for the LAN network to the Web Server in the DMZ.
@@ -578,6 +587,7 @@ The DNS server is configured to provide both forward and reverse DNS resolution 
 This section describes the configuration of an FTP server on the Active Directory server to provide file transfer capabilities for users on the LAN.
 
 Video :
+
 https://github.com/user-attachments/assets/66da41f3-ef28-4a13-a01b-0397fbfcec15
 
 *   Create an FTP site on IIS with the path E:\Ado-Congviec created earlier.
@@ -620,6 +630,7 @@ Configuring an FTP server provides another method for users on the LAN network t
 This section describes the implementation of Group Policies in Active Directory to enforce specific user environment settings and security policies on LAN client machines.
 
 Video :
+
 https://github.com/user-attachments/assets/d41df884-03f2-4037-802e-9dffb471afb3
 
 **2.1. Hide Drive C:**
@@ -734,6 +745,7 @@ Splunk is successfully receiving logs from both the Web server (DMZ) and LAN cli
 This section demonstrates how Splunk can be used to detect brute-force login attempts on the LAN network and trigger alerts.
 
 video :
+
 https://github.com/user-attachments/assets/73c4ea2a-9b4c-4846-b0e9-0637d58f011b
 
 *   Query for Brute Force logins to the LAN network.
@@ -802,6 +814,7 @@ This section demonstrates that Splunk can be effectively used to detect brute-fo
 This section demonstrates how Splunk can be used to detect Cross-Site Scripting (XSS) attacks targeting the web server in the DMZ and trigger alerts.
 
 video :
+
 https://github.com/user-attachments/assets/72c0dd9e-93bb-41fe-8cdf-439bf1df4d97
 
 *   Query to create an Alert for the issue of XSS attacks on the Web Server (DMZ).
@@ -840,6 +853,7 @@ This section demonstrates that Splunk can be used to detect XSS attacks by:
 This section demonstrates how Splunk can be used to detect SQL Injection attacks targeting the web server in the DMZ and trigger alerts.
 
 video :
+
 https://github.com/user-attachments/assets/2f9a43d4-c98a-479c-9fb2-4dd1e3a724c8
 
 *   Query to create an Alert for the issue of SQL Injection attacks on the Web Server (DMZ).
@@ -892,6 +906,7 @@ This section demonstrates Splunk's ability to detect SQL Injection attacks by:
 This section demonstrates how Splunk can be used to detect Denial-of-Service (DoS) attacks targeting the web server in the DMZ and trigger alerts.
 
 video :
+
 https://github.com/user-attachments/assets/2adf8e27-8872-419c-a967-652c8004fa9a
 
 *   Query to create an Alert for the issue of DoS attacks on the Web Server (DMZ).
