@@ -189,6 +189,7 @@ These rules govern traffic originating from the WAN zone (Internet).
 This section details the IPsec VPN configuration for secure remote administrator access to the LAN network.
 
 Video :
+
 https://github.com/user-attachments/assets/2deea068-4efb-4cbf-a606-4337e739b100
 
 Configure VPN for administrator remote access to the LAN network.
